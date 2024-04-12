@@ -32,38 +32,15 @@
         padding: 15px 15px 0 15px;
     }
 
-    .cabecalho .menu ul li {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 65px;
-        right: 0;
-        background-color: #333333;
-        border-radius: 10%;
-        margin: 10px 10px;  
-        display:none;
+    .cabecalho .menu .btn-menu .bar {
+        height: 5px;
+        background: #fff;
+        margin: 6px 0;
+        border-radius: 25px;
+        transition: 0.3s;
     }
 
-    .cabecalho .menu.ativo ul li {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .cabecalho .menu ul li a:hover {
-        background: #333;
-        color: #1a1a1a;
-        text-shadow: 0px 0px 5px #333333;
-    }
-
-    .cabecalho .menu .btn-menu .bar{
-     height: 5px;
-     background: #fff;
-     margin: 6px 0;
-     border-radius: 25px;
-     transition: 0.3s;
-    }
-
-    .cabecalho .menu .btn-menu{
+    .cabecalho .menu .btn-menu {
         width: 35px;
         display: block;
         margin: -10px 0;
@@ -82,6 +59,45 @@
         -webkit-transform: rotate(45deg) translate(-10px, -6px);
         transform: rotate(45deg) translate(-10px, -6px);
     }
+
+    .cabecalho .menu ul li {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        right: -40px;
+        background-color: #3f3f3f;
+        border-radius: 10px;
+        padding: 0 10px;
+        transform: scale(0);
+        transition: 0.3s;
+        max-width: 70%;
+    }
+
+    .cabecalho .menu.ativo ul li {
+        display: flex;
+        flex-direction: column;
+        top: 65px;
+        right: 0;
+        transform: scale(1);
+        margin: 0 10px;
+    }
+
+    .cabecalho .menu ul li a {
+        margin: 5px 10px;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .cabecalho .menu ul li a:hover {
+        background: #3f3f3f;
+        color: #bbb;
+        text-shadow: 0px 0px 5px #3f3f3f;
+        transform: scale(1.1);
+    }
+
+
 
     .home .informacoes h1 {
         font-size: 30px;
