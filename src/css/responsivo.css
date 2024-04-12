@@ -1,0 +1,107 @@
+@media(max-width: 1280px) {
+
+    .cabecalho {
+        padding: 30px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .home .container-foto {
+        padding: 35px;
+    }
+
+    .projetos .container-projetos {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 425px) {
+
+    .cabecalho {
+        padding: 15px 15px 0 15px;
+    }
+
+    .cabecalho .menu ul li {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        right: 0;
+        background-color: #333333;
+        border-radius: 10%;
+        margin: 10px 10px;  
+        display:none;
+    }
+
+    .cabecalho .menu.ativo ul li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho .menu ul li a:hover {
+        background: #333;
+        color: #1a1a1a;
+        text-shadow: 0px 0px 5px #333333;
+    }
+
+    .cabecalho .btn-menu{
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .cabecalho .btn-menu:hover{
+        background: #3f3f3f;
+    }
+
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+
+    .home .informacoes p {
+        font-size: 16px;
+    }
+
+    .home .container-foto .foto {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .home .container-foto img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .tecnologia {
+        gap: 10px;
+        background: linear-gradient(160deg, #333333, #1a1a1a, #403f3f);
+    }
+
+    .tecnologia .titulo {
+        font-size: 25px;
+        padding: 0 0 10px 0;
+    }
+
+    .tecnologia ul li i {
+        font-size: 45px;
+    }
+
+    .projetos {
+        padding: 20px;
+    }
+
+    .projetos .container-projetos {
+        padding: 10px;
+    }
+}
