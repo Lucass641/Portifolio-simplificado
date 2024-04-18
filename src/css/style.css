@@ -213,11 +213,12 @@ body {
 .projetos .projeto .informacoes-projeto .resumo {
     text-align: center;
     font-size: 15px;
+    margin: 20px;
 }
 
 
 .projetos .projeto .informacoes-projeto a {
-    margin: 20px 20px 5px 20px;
+    margin: 5px 20px;
     text-align: center;
     font-size: 15px;
 }
