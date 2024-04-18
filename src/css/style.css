@@ -205,19 +205,19 @@ body {
     font-weight: 500;
     opacity: 0;
     transition: 0.1s;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column-reverse;
 }
 
 .projetos .projeto .informacoes-projeto .resumo {
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
 .projetos .projeto .informacoes-projeto a {
-    margin: 7px 20px 3px 20px;
+    margin: 20px 20px 5px 20px;
     text-align: center;
     font-size: 15px;
 }
@@ -255,18 +255,4 @@ body {
 
 .projetos .btn-mostrar-projetos.remover {
     display: none;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
